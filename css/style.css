@@ -1,0 +1,608 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navbar{
+    padding-left:100px;
+    padding-top: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    color: black;
+    margin-left:35px;
+}
+.li-circle , 
+.li-circle2{
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    background-color: orangered;
+    transform: translateX(100px);
+    transform: translateY(-35px);
+    margin-left: 40px;
+}
+.hero-text{
+  margin-bottom:250px;
+  margin-left: 120px;
+  text-align: left;
+}
+.hero-text-part{
+  background-color: white;
+  width: 200px;
+  height:30px;
+  text-align: center;
+}
+.hero-text-part span{
+    color: orangered;
+}
+.hero-text h1{
+    color: white;
+    font-size:60px;
+}
+.hero{
+    padding: 0px;
+}
+.nav-schedule ,
+.nav-schedule2{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height:40px;
+    border-radius: 40px;
+    text-align: center;
+    }
+.nav-link:hover{
+    color: orangered;
+}
+.about-villa-part1 img{
+    width: 90%;
+    height:90%;
+}
+.about-villa-parts{
+    padding-top:100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.about-villa-part2 h6{
+    color: orangered;
+}
+.about-villa-part2 p{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+.about-villa-part2 h5{
+    font-size: 16px;
+}
+.about-villa-part3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-content: center;
+    border: 1px rgb(205, 203, 203) solid;
+    height: 90%;
+    width:25%;
+    padding: 50px;
+    margin-left: 20px;
+}
+.about-villa-part3 .p-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-three-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.about-villa-video{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.villa-video{
+    width: 100%;
+    height: 120vh;
+    background-image: url(../images/video-bg.jpg);
+    background-size:cover;
+}
+.villa-video img{
+    width:100%;
+    height:50%;
+    transform: translateX(250px);
+    transform: translateY(70px);
+}
+.video-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.video-text h6{
+    color: orangered;
+}
+.video-text h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.video-circle{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 12px orangered solid;
+    transform: translateY(-150px);
+    margin-left: 740px;
+}
+.squares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50px;
+    margin-top: 50px;
+ }
+  .square{
+     width: 300px;
+     height: 100px;
+     background-color: rgb(253, 217, 253);
+     display: flex;
+     justify-content:space-evenly;
+     align-content: center;
+    margin-left: 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+ }
+ .square h2{
+     color: orangered;
+
+    }
+    .circle-insquare{
+        width: 50px;
+        height: 50px;
+        background-color: orangered;
+        border-radius: 100%;
+        transform: translateX(350px);
+        margin-bottom:70px;
+    }
+.about-best-deal{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(251, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-best-deal-part1 h6{
+    color: orangered;
+    margin-left: -40px;
+    width: 300px;
+    height:40px;
+    text-align: left;
+}
+.about-best-deal-part1 h2{
+    font-weight: bold;
+}
+.about-best-deal-part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-best-deal-part1-table{
+    background-color: white;
+    width: 350px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.table-content{
+    display: flex;
+}
+.table-content h5{
+    color: gray;
+}
+.table-content h4{
+    margin-left:80px;
+}
+.about-best-deal-part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-best-deal-part2 img{
+   transform: translateY(90px);
+   width:500px;
+   height:400px;
+}
+.about-best-deal-part3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.about-best-deal-buttons{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.about-best-deal-buttons a{
+    width:150px;
+    height:50px;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    margin-right:20px;
+    text-align: center;
+    padding: 10px;
+    border-radius:5px;
+    margin-bottom:50px;
+}
+.about-best-deal-buttons a:checked{
+    background-color: orangered;
+}
+.about-best-deal-part3 p:last-of-type{
+    margin-top:30px;
+}
+.about-best-deal-part3 h3{
+    margin-bottom: 30px;
+    font-size:25px;
+}
+.li-circle2{
+    transform: translateY(-35px);
+    margin-right:160px;
+}
+.nav-schedule2{
+    padding:7px;
+    margin-top:30px;
+}
+.PROPERTIES{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+.PROPERTIES-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:100px;
+}
+.PROPERTIES-first h6{
+    color: orangered;
+    margin-bottom:20px;
+}
+.PROPERTIES-first h2{
+    font-weight: bold;
+    line-height:50px;
+    text-align: center;
+}
+.PROPERTIES-parts ,
+.PROPERTIES-parts-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PROPERTIES-part1 ,
+.PROPERTIES-part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width:30%;
+    height:90%;
+    background-color: rgb(251, 247, 247);
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.PROPERTIES-part1 img , 
+.PROPERTIES-part2 img{
+    border-radius:10px;
+}
+.PROPERTIES-part1-first{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+.PROPERTIES-part1 h6 ,
+.PROPERTIES-part2 h6{
+    width: 120px;
+    height:40px;
+    background-color: rgb(253, 217, 253);
+    text-align: center;
+    padding-top: 10px;
+    border-radius:7px;
+    margin-right:70px;
+}
+.PROPERTIES-part1 p , 
+.PROPERTIES-part2 p{
+    line-height:30px;
+    word-spacing:10px;
+}
+.PROPERTIES-part1 h4 ,
+.PROPERTIES-part2 h4{
+    font-size:18px;
+}
+.PROPERTIES-part1  h5 ,
+.PROPERTIES-part2 h5{
+    color: orangered;
+    font-weight: bold;
+}
+.PROPERTIES-part1 span ,
+.PROPERTIES-part2 span{
+    color: gray;
+}
+.PROPERTIES-part1 a , 
+.PROPERTIES-part2 a{
+    text-decoration: none;
+    width: 170px;
+    height:50px;
+    background-color: black;
+    border-radius:40px;
+    color: white;
+    text-align: center;
+    padding-top:10px;
+}
+.PROPERTIES-part1 .hr ,
+.PROPERTIES-part2 .hr{
+    background-color: rgb(168, 168, 168);
+    width:80%;
+    height: 2px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.property-parts-2{
+    margin-top: 100px;
+}
+.contact-us{
+    width: 100%;
+    height:120vh;
+    padding-top:150px;
+}
+.contact-us img{
+    width:100%;
+    height:70%;
+    padding: 0px;
+}
+.contact-us-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-500px);
+}
+.contact-us-first h6{
+    color: orangered;
+    margin-bottom: 20px;
+}
+.contact-us-first h2{
+    color: white;
+    font-weight: bold;
+    line-height:50px;
+}
+.contact-us-part1-1{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(198, 197, 197) solid;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.contact-us-part1-icon{
+    width:70px;
+    height:50px;
+    margin-right: 10px;
+}
+.contact-us-parts1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(155px);
+}
+.contact-us-part1-1 h6{
+    color: gray;
+}
+.contact-us-part2-inputs{
+    width:100%;
+    height:100%;
+    border: 1px rgb(198, 197, 197) solid;
+    background-color: white;
+    transform: translateY(-400px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding:15px;
+}
+.contact-us-part2-inputs input{
+    width: 450px;
+    height:50px;
+    border-radius: 40px;
+    background-color: rgb(243, 239, 239);
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.contact-us-part2-inputs input:nth-child(8){
+    height: 200px;
+}
+.contact-us-part2-inputs input:nth-child(9){
+    width:150px;
+    background-color: black;
+    color: white;
+    padding: 0px;
+}
+.contact-us-part2-inputs label{
+    margin-bottom: 15px;
+}
+.copy-right{
+    width: 100%;
+    height:25vh;
+    background-color: black;
+    color: white;
+    padding-left:100px;
+    padding-top: 100px;
+    margin-top:400px;
+}
+@media (max-width:767px) {
+    .navbar-brand{
+        margin-left: -30px;
+    }
+    .navbar-toggler{
+       padding-left: -100px;
+    }
+    .hero{
+        height:100% ;
+    }
+    .about-villa-parts{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-villa-part3{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .about-villa-part2{
+        margin-top: 10px;
+    }
+    .carousel-item img{
+        height:900px;
+    }
+    .carousel-inner{
+        height: 100%;
+    }
+    .hero-text{
+        margin: 0px;
+        padding: 0px;
+      }
+      .hero-text-part{
+        margin: 0px;
+        padding: 0px;
+      }
+      .villa-video{
+        width: 100%;
+        height: 100%;
+      }
+      .villa-video img{
+        margin-left:0px;   
+    }
+    .video-circle{
+        transform: translateY(-150px);
+        margin-left: 0px;
+        transform: translateX(180px);
+    }
+    .square{
+        width: 120px;
+        margin-left:0px;
+    }
+    .squares{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .square{
+        width: auto;
+    }
+    .circle-insquare{
+        transform: translateX(90px);
+        margin-bottom:-30px;
+        margin-top: 10px;   
+    }
+    .about-best-deal{
+        height: 100%;
+    }
+    .about-best-deal-part1 h6{
+        margin: 0px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+     .about-best-deal-buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .PROPERTIES {
+        height: 100%;
+    }
+    .PROPERTIES-parts,
+    .PROPERTIES-parts-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .PROPERTIES-part1 ,
+    .PROPERTIES-part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width:100%;
+    height:100%;
+    padding: 20px;
+}
+    .contact-us{
+        height: 100vh;
+    }
+    .contact-us img{
+        width: 100%;
+        height: 100%;
+    }
+    .contact-us-first{
+        padding-top: 50px;
+    }
+    .contact-us-part1-1{
+        transform: translateY(-600px);
+        margin-bottom: 20px;
+    }
+    .contact-us-parts1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(150px);
+    }
+    .contact-us-part2-inputs input{
+        width: 200px;
+    }
+    .contact-us-part2{
+        width:60%;
+        height: 50%;
+    }
+    .copy-right{
+        height: 100%;
+        /* margin-top: 500px; */
+        padding:20px;
+    }
+}
